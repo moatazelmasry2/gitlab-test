@@ -1,0 +1,11 @@
+stages:
+  - init
+  - compile
+  - test
+  - docker
+  - deploy
+
+bla:
+    stage: init
+    script:
+        echo "hi"
